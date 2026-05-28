@@ -1,11 +1,13 @@
 # Required packages
-# library(BiocManager) # Required for installation of Biostrings
-# library(Biostrings)
-# library(ggplot2)
+library(BiocManager)
+library(Biostrings)
+library(ggplot2)
 
 # Set input and output file paths directly
 input_file <- "data/fasta.fa"
-output_file <- "base_plot.png"
+dir.create("output", showWarnings = FALSE)
+timestamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
+output_file <- paste0("output/base_plot_", timestamp, ".png")
 
 # Read fasta
 seqs <- readDNAStringSet(filepath = input_file)
