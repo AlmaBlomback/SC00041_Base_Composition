@@ -1,16 +1,28 @@
+
 ## Purpose
-(Students must describe what the script does)
+The purpose of this script is to analyse the data and produce a plot. 
 
 ## Instructions for Running Code
 
-### Install dependencies
-(Students must create an `environment` and list dependencies)
+### Clone the repository
+To use the repository, first clone it using:
 
-This script requires the following R packages:
+git clone https://github.com/AlmaBlomback/SC00041\_Base\_Composition.git
+
+### Install dependencies
+To use the code the following R packages are required: 
+BiocManager
+BioStrings
+ggplot2
+
+You can create an environment from `environment.yml`:
+conda env create -f environment.yml
+
+#### Activate the environment
+conda activate base-composition
 
 ### Run the script
-(Students must specify correct paths)
-#Rscript base_composition.R
+Rscript base\_composition.R
 
 ## What output to expect
-(Students must describe what output to expect by running this code)
+The output of the script is a figure that is saved in the same folder as the script called base\_plot.png
