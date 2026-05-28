@@ -1,7 +1,7 @@
 # Required packages
-library(BiocManager) # Required for installation of Biostrings
-library(Biostrings)
-library(ggplot2)
+# library(BiocManager) # Required for installation of Biostrings
+# library(Biostrings)
+# library(ggplot2)
 
 # Set input and output file paths directly
 input_file <- "data/fasta.fa"
