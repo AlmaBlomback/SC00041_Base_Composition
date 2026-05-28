@@ -6,9 +6,9 @@ The purpose of this script is to analyse the data and produce a plot.
 
 ### Clone the repository
 To use the repository, first clone it using:
-
+```bash
 git clone https://github.com/AlmaBlomback/SC00041\_Base\_Composition.git
-
+```
 ### Install dependencies
 To use the code the following R packages are required: 
 BiocManager
