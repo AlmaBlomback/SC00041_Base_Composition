@@ -5,7 +5,7 @@
 
 # Set input and output file paths directly
 input_file <- "data/fasta.fa"
-output_file <- "output/base_plot.png"
+output_file <- "base_plot.png"
 
 # Read fasta
 seqs <- readDNAStringSet(filepath = input_file)
