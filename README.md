@@ -25,4 +25,4 @@ conda activate base-composition
 Rscript base_composition.R
 ```
 ## What output to expect
-Th output of the script is a figure that is saved in the same folder as the script called base\_plot.png
+The output of the script is a figure that is saved in the same folder as the script called base\_plot.png
