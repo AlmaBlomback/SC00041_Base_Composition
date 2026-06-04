@@ -1,5 +1,6 @@
 # Required packages
-library(BiocManager)
+
+library(BiocManager) # Required for installation of Biostrings
 library(Biostrings)
 library(ggplot2)
 
