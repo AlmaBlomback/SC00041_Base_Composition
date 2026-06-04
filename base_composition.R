@@ -5,7 +5,9 @@ library(Biostrings)
 library(ggplot2)
 
 # Set input and output file paths directly
-input_file <- "data/fasta.fa"
+args <- commandArgs(trailingOnly = TRUE)
+if (length(args) < 1) stop("Usage: Rscript base_composition.R <input_fasta>")
+input_file <- args[1]
 dir.create("output", showWarnings = FALSE)
 timestamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
 output_file <- paste0("output/base_plot_", timestamp, ".png")
