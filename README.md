@@ -1,4 +1,4 @@
-
+# Base Composition
 ## Purpose
 This script, `base_composition.R`, was written to count the bases in a FASTA dataset and produce a bar chart of the results.  
 
