@@ -12,11 +12,10 @@ git clone https://github.com/AlmaBlomback/SC00041_Base_Composition.git
 ### Install dependencies
 To use the code, the following R packages are required: BiocManager, BioStrings and ggplot2.
 
-Create an environment using `environment.yml` by:
+Create and activate an environment using `environment.yml` by:
 ```bash
 conda env create -f environment.yml
 ```
-#### Activate the environment
 ```bash
 conda activate base-composition
 ```
@@ -26,8 +25,9 @@ Run the script using `Rscript` and specify the path to the FASTA dataset to be a
 Rscript base_composition.R ./data/fasta.fa
 ```
 ## What output to expect
-When the running the script, an output folder is created in the current directory. The resulting bar chart is saved in this folder as `base_plot<data_time>.png`.
+When the running the script, an output folder is created in the current directory. The resulting bar chart is saved in this folder as `base_plot<_date_time_>.png`.
 
 ## Authors
 For any questions or suggestions, please open an issue in this repository or contact one of the authors: 
+
 Alma Blombäck (<alma.blomback@gu.se>), Felix Falk (<felix.falk@ki.se>), Jacob Holmqvist (<jacob.holmqvist@gu.se>)
